@@ -1,0 +1,11 @@
+﻿test1.obj : error LNK2019: 无法解析的外部符号 _gladLoadGLLoader，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，函数 _main 中引用了该符号
+test1.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，函数 _main 中引用了该符号
+test1.obj : error LNK2001: 无法解析的外部符号 _glad_glViewport
+C:\Software\openGL\openGL_config\lib\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\项目\OpenGL\LearnOpenGL\LearnOpenGL_test1\Debug\LearnOpenGL_test1.exe : fatal error LNK1120: 9 个无法解析的外部命令
