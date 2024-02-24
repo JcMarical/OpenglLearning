@@ -13,10 +13,354 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Assimp">
+      <UniqueIdentifier>{6c77d271-19b9-4064-8604-f21b544b59d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting">
+      <UniqueIdentifier>{938c7ffd-0b5c-434c-8bda-3248bb65929a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Primer">
+      <UniqueIdentifier>{57f5d68b-5346-4fc5-b5b1-f1a0f81ee855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Assimp">
+      <UniqueIdentifier>{17eb2aa4-9354-4fa1-aeaf-3f734e89c7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Picture">
+      <UniqueIdentifier>{2d69f917-98a2-4088-8784-a3e61a4bacc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Primer">
+      <UniqueIdentifier>{2da3951c-f564-4524-8336-73feee9c6970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Lighting">
+      <UniqueIdentifier>{a5bea477-2a0c-4efa-a789-c56a1483f708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Model">
+      <UniqueIdentifier>{0e689f48-adbc-43c9-8375-e84952b547e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Advanced">
+      <UniqueIdentifier>{cee05f0a-2395-430d-9a51-ce0a8c6e1387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Advanced">
+      <UniqueIdentifier>{d642a46e-a620-4727-a41f-fbc8653a0bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Advanced Lighting">
+      <UniqueIdentifier>{bd6b0a90-1371-452c-99c0-ed6a2b59f812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Advanced Lighting">
+      <UniqueIdentifier>{85c81461-bad1-4d0c-aa41-c2c3fcdce4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\PBR">
+      <UniqueIdentifier>{68611bbf-f582-465e-90a5-0e6636e77469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PBR">
+      <UniqueIdentifier>{6129ad0e-2bfc-44dc-bc1c-47f5afcf4dd6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test1.cpp">
-      <Filter>资源文件</Filter>
+    <ClCompile Include="..\src\glad.c">
+      <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Normal Mapping.cpp">
+      <Filter>源文件\Advanced Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="PBR.cpp">
+      <Filter>源文件\PBR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="8.0.cpp">
+      <Filter>源文件\Lighting</Filter>
+    </None>
+    <None Include="9.0.cpp">
+      <Filter>源文件\Lighting</Filter>
+    </None>
+    <None Include="10.0.cpp">
+      <Filter>源文件\Lighting</Filter>
+    </None>
+    <None Include="4.0.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="5.0.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="6.0.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="6.1.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="7.0.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="7.1.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="7.2.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="test2.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="test2_1.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="test3.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="test3_1.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="test3_2.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="test3_3.cpp">
+      <Filter>源文件\Primer</Filter>
+    </None>
+    <None Include="11.0.cpp">
+      <Filter>源文件\Lighting</Filter>
+    </None>
+    <None Include="3.3.shader.fs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="3.3.shader.vs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="4.0.shader.fs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="4.0.shader.vs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="5.0.shader.fs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="5.0.shader.vs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="6.0.shader.fs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="6.0.shader.vs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="6.1.shader.fs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="6.1.shader.vs">
+      <Filter>资源文件\Primer</Filter>
+    </None>
+    <None Include="8.0.shader1.fs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="8.0.shader1.vs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="8.0.shader2.fs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="8.0.shader2.vs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="9.0.shader1.fs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="9.0.shader1.vs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="9.0.shader2.fs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="9.0.shader2.vs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="10.0.shader.fs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="10.0.shader.vs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="11.0.shader.fs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="11.0.shader.vs">
+      <Filter>资源文件\Lighting</Filter>
+    </None>
+    <None Include="model.vs">
+      <Filter>资源文件\Assimp</Filter>
+    </None>
+    <None Include="model.fs">
+      <Filter>资源文件\Assimp</Filter>
+    </None>
+    <None Include="Model.cpp">
+      <Filter>源文件\Assimp</Filter>
+    </None>
+    <None Include="DepthTestingShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="DepthTestingShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="StencilTestingShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="DepthTesting.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="StencilTesting.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="BlendingShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="BlendingShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="Blending.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="Face Culling.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="ShaderFramebuffers.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="ShaderFramebuffers.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="Framebuffers.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="CubeMapsShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="MirrorShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="MirrorShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="refractShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="HouseShader.gs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="geometryShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="geometryShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="geometryShader.gs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="Cube maps.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="ExplodeShader.gs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="ExplodeShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="ExplodeShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="normalDisplayShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="normalDisplayShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="normalDisplayShader.gs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="InstancingShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </None>
+    <None Include="GeometryShader.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="Instancing.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="PhongShader.vs">
+      <Filter>资源文件\Advanced Lighting</Filter>
+    </None>
+    <None Include="PhongShader.fs">
+      <Filter>资源文件\Advanced Lighting</Filter>
+    </None>
+    <None Include="AntiAliasing.cpp">
+      <Filter>源文件\Advanced</Filter>
+    </None>
+    <None Include="HDRShader.vs">
+      <Filter>资源文件\Advanced Lighting</Filter>
+    </None>
+    <None Include="HDRShader.fs">
+      <Filter>资源文件\Advanced Lighting</Filter>
+    </None>
+    <None Include="lightingShader.vs">
+      <Filter>资源文件\Advanced Lighting</Filter>
+    </None>
+    <None Include="lightingShader.fs">
+      <Filter>资源文件\Advanced Lighting</Filter>
+    </None>
+    <None Include="AdvancedLighting.cpp">
+      <Filter>源文件\Advanced Lighting</Filter>
+    </None>
+    <None Include="PBRShader.vs">
+      <Filter>资源文件\PBR</Filter>
+    </None>
+    <None Include="PBRShader.fs">
+      <Filter>资源文件\PBR</Filter>
+    </None>
+    <None Include="HDR.cpp">
+      <Filter>源文件\Advanced Lighting</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancingShader.vs">
+      <Filter>资源文件\Advanced</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="awesomeface.png">
+      <Filter>资源文件\Picture</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>资源文件\Picture</Filter>
+    </Image>
+    <Image Include="container2_specular.png">
+      <Filter>资源文件\Picture</Filter>
+    </Image>
+    <Image Include="grass.png">
+      <Filter>资源文件\Picture</Filter>
+    </Image>
+    <Image Include="blending_transparent_window.png">
+      <Filter>资源文件\Picture</Filter>
+    </Image>
+    <Image Include="container2.png">
+      <Filter>资源文件\Picture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CubeMapsShader.fs">
+      <Filter>资源文件\Advanced</Filter>
+    </Text>
   </ItemGroup>
 </Project>

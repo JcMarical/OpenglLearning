@@ -81,8 +81,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Software\openGL\openGL_config\includes;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Software\openGL\openGL_config\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Program\OpenGL\LearnOpenGL\Linking\openGL_config\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program\OpenGL\LearnOpenGL\Linking\openGL_config\lib;C:\Software\openGL\openGL_config\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -126,7 +126,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -146,7 +146,117 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test1.cpp" />
+    <ClCompile Include="..\src\glad.c" />
+    <ClCompile Include="PBR.cpp" />
+    <None Include="AdvancedLighting.cpp" />
+    <ClCompile Include="Normal Mapping.cpp" />
+    <None Include="HDR.cpp" />
+    <None Include="AntiAliasing.cpp" />
+    <None Include="HDRShader.fs" />
+    <None Include="HDRShader.vs" />
+    <None Include="Instancing.cpp" />
+    <None Include="Cube maps.cpp" />
+    <None Include="GeometryShader.cpp" />
+    <None Include="ExplodeShader.fs" />
+    <None Include="ExplodeShader.gs" />
+    <None Include="ExplodeShader.vs" />
+    <None Include="geometryShader.fs" />
+    <None Include="geometryShader.gs" />
+    <None Include="geometryShader.vs" />
+    <None Include="HouseShader.gs" />
+    <None Include="InstancingShader.fs" />
+    <None Include="lightingShader.fs" />
+    <None Include="lightingShader.vs" />
+    <None Include="MirrorShader.fs" />
+    <None Include="MirrorShader.vs">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="CubeMapsShader.vs" />
+    <None Include="Framebuffers.cpp" />
+    <None Include="Blending.cpp" />
+    <None Include="Face Culling.cpp" />
+    <None Include="BlendingShader.vs" />
+    <None Include="BlendingShader.fs" />
+    <None Include="normalDisplayShader.fs" />
+    <None Include="normalDisplayShader.gs" />
+    <None Include="normalDisplayShader.vs" />
+    <None Include="PBRShader.fs" />
+    <None Include="PBRShader.vs" />
+    <None Include="PhongShader.fs" />
+    <None Include="PhongShader.vs" />
+    <None Include="refractShader.fs" />
+    <None Include="ShaderFramebuffers.fs" />
+    <None Include="ShaderFramebuffers.vs" />
+    <None Include="StencilTesting.cpp" />
+    <None Include="DepthTestingShader.vs">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="DepthTestingShader.fs" />
+    <None Include="Model.cpp" />
+    <None Include="DepthTesting.cpp" />
+    <None Include="11.0.cpp" />
+    <None Include="10.0.shader.fs" />
+    <None Include="10.0.shader.vs" />
+    <None Include="11.0.shader.fs" />
+    <None Include="11.0.shader.vs" />
+    <None Include="8.0.cpp" />
+    <None Include="10.0.cpp" />
+    <None Include="9.0.cpp" />
+    <None Include="7.1.cpp" />
+    <None Include="7.2.cpp" />
+    <None Include="6.1.cpp" />
+    <None Include="7.0.cpp" />
+    <None Include="5.0.cpp" />
+    <None Include="6.0.cpp" />
+    <None Include="3.3.shader.vs">
+      <FileType>CppCode</FileType>
+    </None>
+    <None Include="4.0.cpp" />
+    <None Include="4.0.shader.fs" />
+    <None Include="4.0.shader.vs" />
+    <None Include="5.0.shader.fs" />
+    <None Include="5.0.shader.vs" />
+    <None Include="6.0.shader.fs" />
+    <None Include="6.0.shader.vs" />
+    <None Include="6.1.shader.fs" />
+    <None Include="6.1.shader.vs" />
+    <None Include="8.0.shader1.fs" />
+    <None Include="8.0.shader1.vs" />
+    <None Include="8.0.shader2.fs" />
+    <None Include="8.0.shader2.vs" />
+    <None Include="9.0.shader1.fs" />
+    <None Include="9.0.shader1.vs" />
+    <None Include="9.0.shader2.fs" />
+    <None Include="9.0.shader2.vs" />
+    <None Include="model.fs" />
+    <None Include="model.vs" />
+    <None Include="StencilTestingShader.fs" />
+    <None Include="test3_2.cpp" />
+    <None Include="test3_3.cpp" />
+    <None Include="3.3.shader.fs" />
+    <None Include="test2_1.cpp" />
+    <None Include="test3.cpp" />
+    <None Include="test2.cpp" />
+    <None Include="test3_1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="InstancingShader.vs" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="awesomeface.png" />
+    <Image Include="blending_transparent_window.png" />
+    <Image Include="container.jpg" />
+    <Image Include="container2.png" />
+    <Image Include="container2_specular.png" />
+    <Image Include="grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CubeMapsShader.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
